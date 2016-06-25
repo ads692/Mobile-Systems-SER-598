@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Welcomemsg1"
+        android:text="`"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/lat"
+            android:text="Latitude"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/longt"
+            android:layout_below="@+id/lat"
+            android:text="Longitude"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/longt"
+            android:text="Name"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_below="@+id/name"
+            android:text="Address"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/cat"
+            android:layout_below="@+id/address"
+            android:text="Category"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/edit1"
+            android:inputType="numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/lat"
+            android:layout_toEndOf="@+id/lat"/>
+
+
+        <EditText
+            android:id="@+id/edit2"
+            android:inputType="numberSigned"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/longt"
+            android:layout_toEndOf="@+id/longt"
+            android:layout_below="@+id/edit1"/>
+
+        <EditText
+            android:id="@+id/edit3"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_toRightOf="@+id/name"
+            android:layout_toEndOf="@+id/name"
+            android:layout_below="@+id/edit2"/>
+        <EditText
+            android:id="@+id/edit4"
+            android:inputType="textPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@+id/address"
+            android:layout_toEndOf="@+id/address"
+            android:layout_below="@+id/edit3"/>
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/cat"
+            android:layout_toEndOf="@+id/cat"
+            android:layout_below="@+id/edit4"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/viewbutton"
+        android:text="Add"
+        android:layout_width="195dp"
+        android:layout_height="75dp"
+
+        android:onClick="clickadd"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+
+        android:text="Go back"
+        android:layout_width="211dp"
+        android:layout_height="75dp"
+
+        android:onClick="clickback"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
