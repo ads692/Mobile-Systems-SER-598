@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="methods">Methods</string>
+    <string name="button_text">Call Method</string>
+    <string name="result">Result</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="url_string">http://pooh.poly.asu.edu:10322</string>
+    <string name="action_settings">Action Settings</string>
+    <string-array name="entries">
+        <item>Add</item>
+        <item>Subtract</item>
+        <item>Multiply</item>
+        <item>Divide</item>
+    </string-array>
+</resources>
