@@ -1,0 +1,71 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text="@string/fname"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/fname"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/lname"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/lname"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/pnumber"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/pnumber"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/email"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_margin="10dp"/>
+    </TableRow>
+
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_gravity="top">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/contacts"
+            android:layout_margin="10dp"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_margin="15dp"></Spinner>
+    </TableRow>
+
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/add"
+        android:text="@string/add"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="add"/>
+    </LinearLayout>
+</TableLayout>
