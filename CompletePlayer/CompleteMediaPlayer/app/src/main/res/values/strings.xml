@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CompleteMediaPlayer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_music_player">Music Player</string>
+    <string name="title_video_player">Video Player</string>
+    <string name="btn_music">Listen to Music!</string>
+    <string name="btn_video">Watch Videos!</string>
+    <string name="btn_online">Go on YouTube!</string>
+    <string name="btn_exit">Exit App</string>
+    <string name="btn_stream">Stream a video</string>
+    <string name="txtv_intro">Your new all-in-one Media player is here!</string>
+    <string name="copyright">© 2015 Aditya Narasimhamurthy</string>
+
+</resources>
